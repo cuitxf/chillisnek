@@ -77,6 +77,7 @@ void Game::UpdateModel()
 					{
 						if (nCountMax > 4)
 						{
+							//asdhkasdhkadshaskhd
 							nCountMax -= speedup;
 						}
 						snek.Grow();
