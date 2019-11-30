@@ -76,6 +76,11 @@ bool Snake::isOverLap(const Location& otherloc) const
 	return false;
 }
 
+int Snake::GetLen() const
+{
+	return nSegments;
+}
+
 
 
 const Location& Snake::Segment::GetLocation() const

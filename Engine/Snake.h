@@ -16,6 +16,7 @@ public:
 	bool isBitedSelf() const;
 	bool isBitedGoal(const Goal& goal) const;
 	bool isOverLap(const Location& otherloc) const;
+	int GetLen() const;
 
 private:
 	class Segment
